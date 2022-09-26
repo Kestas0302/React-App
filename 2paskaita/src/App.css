@@ -16,3 +16,14 @@
   justify-content: space-around;
 
 }
+.center {
+  text-align: center;
+}
+
+.car-card-mini {
+  width: 300px;
+}
+
+.car-card-medium {
+  width: 500px;
+}

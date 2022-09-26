@@ -1,6 +1,21 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({text, type, bgColor}) => ( <div className="button-wrapper"><button type={type} className="button" style={{backgroundColor: bgColor}}>{text}</button>{" "}</div>);
+
+// props = {text: "Say hello", type: "button" | "submit" | "reset", bgColor: "red"}
+// props.text
+// props.type = ({ type })
+
+//                                       => ( JSX ), JS
+//                                       => { return (JSX) }
+
+
+const Button = ({ text, type, bgColor }) => (
+  <div className="button-wrapper">
+    <button type={type} className="button" style={{ backgroundColor: bgColor }}>
+      {text}
+    </button>{" "}
+  </div>
+);
 
 export default Button;
